@@ -1,0 +1,7 @@
+#- Copy only what the app needs, add a `.dockerignore` so 
+#`__pycache__`, `.venv`, `.env` and `.idea` 
+#never end up in the image
+__pycache__
+.venv
+.env
+.idea
